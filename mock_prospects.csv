@@ -1,0 +1,16 @@
+company_name,industry,stage,headcount_growth_6mo,tech_stack,engagement_score
+Credify,Fintech,Series C,24,Campfire;NetSuite;Salesforce,0.70
+MintRail,Fintech,Series B,44,NetSuite;HubSpot;Slack,0.55
+HYBRD Fitness,SportsTech,Series B,38,QuickBooks;Salesforce,0.65
+RideWave,SportsTech,Series B,36,Campfire;Slack;Notion,0.78
+LedgerLoop,FinOps,Series A,60,Campfire;NetSuite,0.45
+MotionMint,SportsTech,Series A,41,QuickBooks;HubSpot,0.55
+RelayForge,SaaS,Series C,29,Campfire;Salesforce;Slack,0.85
+PeakLedger,Fintech,Series A,52,NetSuite;Notion,0.30
+ApexWellness,HealthTech,Series B,33,QuickBooks;Slack,0.75
+CloudStride,SaaS,Series C,18,Sage;HubSpot,0.80
+NovaPay,Fintech,Series B,48,Campfire;NetSuite;Salesforce,0.62
+FitStack,SportsTech,Series A,55,QuickBooks;Notion,0.40
+ScaleOps,SaaS,Series B,42,NetSuite;Salesforce;Slack,0.72
+MedFlow,HealthTech,Series C,22,Sage;Salesforce,0.58
+TalentGrid,HR Tech,Series B,38,Campfire;NetSuite;HubSpot,0.68
