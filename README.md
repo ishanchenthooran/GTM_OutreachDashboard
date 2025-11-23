@@ -1,4 +1,4 @@
-# Abacum Outreach Scoring Dashboard
+# GTM Outreach Scoring Dashboard
 
 A dashboard prototype to help GTM teams prioritize prospect outreach. Scores companies based on industry fit, growth signals, tech stack overlap, and engagement—then suggests tailored talking points for each.
 
