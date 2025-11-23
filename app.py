@@ -180,8 +180,10 @@ def get_component_note(name, val, row):
     #Generate a plain English note explaining why this score is high/medium/low.
     if name == "Industry Fit":
         industry = row.get("industry", "Unknown")
-        if val >= 0.7:
+        if val >= 0.9:
             return f"{industry} is a strong ICP match — similar to clients like Strava, Kajabi"
+        elif val >= 0.7:
+            return f"{industry} is a good fit — relevant vertical for FP&A"
         elif val >= 0.4:
             return f"{industry} has moderate fit with our target verticals"
         else:
@@ -189,8 +191,10 @@ def get_component_note(name, val, row):
     
     elif name == "Stage Fit":
         stage = row.get("stage", "Unknown")
-        if val >= 0.7:
+        if val >= 0.95:
             return f"{stage} is our sweet spot — scaling fast, needs FP&A"
+        elif val >= 0.7:
+            return f"{stage} is a strong fit — good timing for FP&A investment"
         elif val >= 0.4:
             return f"{stage} is acceptable — may need tailored approach"
         else:
