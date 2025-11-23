@@ -387,9 +387,9 @@ with tab3:
     ax.grid(axis="y", color="#E5E7EB", alpha=0.7)
     
     legend_elements = [
-        Patch(facecolor='#7C3AED', label='High (75+)'),
-        Patch(facecolor='#A78BFA', label='Warm (50-74)'),
-        Patch(facecolor='#DDD6FE', label='Low (<50)')
+        Patch(facecolor='#00C853', label='High (75+)'),
+        Patch(facecolor='#FFC300', label='Warm (50-74)'),
+        Patch(facecolor='#D7263D', label='Low (<50)')
     ]
     ax.legend(handles=legend_elements, loc='upper right')
     
